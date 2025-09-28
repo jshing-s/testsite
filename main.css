@@ -1,38 +1,35 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Website Layout</title>
-  <link rel="stylesheet" href="main.css">
-</head>
-<body>
+/* main.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
 
-  <header>
-    <h1>My Website</h1>
-    <nav>
-      <a href="#">Home</a>
-      <a href="#">About</a>
-      <a href="#">Contact</a>
-    </nav>
-  </header>
+header, footer {
+  background: #333;
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
 
-  <main>
-    <section>
-      <h2>Main Content</h2>
-      <p>This is where your page’s main stuff goes.</p>
-    </section>
-    <aside>
-      <h3>Sidebar</h3>
-      <p>Links, ads, or extra info here.</p>
-    </aside>
-  </main>
+nav a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+}
 
-  <footer>
-    <p>&copy; 2025 My Website</p>
-  </footer>
+main {
+  display: flex;
+  padding: 1em;
+}
 
-  <script src="main.js"></script>
-</body>
-</html>
+section {
+  flex: 3;
+  padding: 1em;
+  background: #f4f4f4;
+}
 
+aside {
+  flex: 1;
+  padding: 1em;
+  background: #ddd;
+}
