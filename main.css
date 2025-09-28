@@ -1,4 +1,19 @@
 /* main.css */
+
+/* Make the entire page a flex container */
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Let main grow to take up leftover space */
+main {
+  flex: 1;
+}
+
+
 body {
   margin: 0;
   font-family: Arial, sans-serif;
