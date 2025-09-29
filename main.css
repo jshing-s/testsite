@@ -27,14 +27,17 @@ header, footer {
 }
 
 nav a {
-  margin: 0 10px;
+  margin: 0 2.75px;
   color: white;
   text-decoration: none;
- /* background: #007BFF; */
+  transition: background 0.5s;
+  border-radius: 5px;
+  background: #0056b3;
+  padding: 2px 8px;
 }
 
 nav a:hover {
-  background: #0056b3; 
+  background: #007BFF; 
 }
 
 main {
@@ -48,8 +51,22 @@ section {
   background: #f4f4f4;
 }
 
-aside {
+aside.a1 {
   flex: 1;
   padding: 1em;
   background: #ddd;
+  order: 1;
+}
+
+aside.a2 {
+  flex: 0;
+  padding: 1em;
+  background: #bfbfbf;
+  order: -1;
+}
+aside.a3 {
+  flex: 1;
+  padding: 1em;
+  background: #cccccc;
+  order: 0
 }
