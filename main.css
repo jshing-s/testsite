@@ -49,6 +49,14 @@ section {
   flex: 3;
   padding: 1em;
   background: #f4f4f4;
+  order: 1;
+}
+
+section.b2 {
+    flex: 3;
+    padding: 1em;
+    background: #f3f3b4f4;
+    order: -5;
 }
 
 aside.a1 {
