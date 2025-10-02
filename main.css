@@ -78,3 +78,20 @@ aside.a3 {
   background: #cccccc;
   order: 0
 }
+
+
+body, .page {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.spacer {
+  flex: 1;
+}
+
+#bottom-image {
+  width: 200px; /* adjust as needed */
+  align-self: center;
+}
