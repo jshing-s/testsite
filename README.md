@@ -1,7 +1,6 @@
 # testsite
-This is a test site made by Jackson Shing
-
-PLease use as a TEMPLATE like its intended.
+This is a website designed for SM's Robotics use.
+Site designed by Jackson Shing and Ronan Lau
  
 *Note* 
 Use "python3 -m http.server 8000" to launch a test server.
